@@ -23,30 +23,6 @@ This project performs a comprehensive analysis of a global sporting goods retail
 - Predict late delivery risks using logistic regression.
 - Recommend actionable improvements in shipping strategies.
 
----
-
-## 🧠 Key Insights & Results
-
-### 🔹 Sales Forecasting
-- **Models**: Random Forest & XGBoost  
-- **Metrics**: RMSE = `0.43`, R² = `0.60`  
-- **Outcome**: Forecasting accuracy improved by **33%** over baseline. Enabled proactive pricing and demand planning.
-
-### 🔹 Late Delivery Risk Prediction
-- **Model**: Logistic Regression  
-- **Metrics**:  
-  - Accuracy: `93.29%`  
-  - Precision: `90.37%`  
-  - Recall: `94.37%`  
-  - ROC-AUC: `98.38%`  
-- **Outcome**: High recall ensures detection of most late deliveries, improving supply chain efficiency.
-
-### 🔹 Discount Optimization
-- Identified that **10%–25%** discounts were most effective in driving purchases.
-- KMeans clustering segmented countries into behavioral clusters.
-- Regionalized discount strategy improved ROI by **15%**.
-
----
 
 ## 📊 Visualizations
 - Treemaps for category-wise sales by country
